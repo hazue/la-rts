@@ -9,12 +9,11 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 
 # Pre-requisite
 - Python 3 installed
-- ffmpeg installed (https://ffmpeg.org/download.html, download from "Get packages & executable files")
+- ffmpeg installed (https://ffmpeg.org/download.html, download from "Get packages & executable files")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- place the `ffmpeg.exe` file into this folder
 - Chrome 96 installed
-- Download chromedriver version 96 (https://chromedriver.chromium.org/downloads)
+- Download chromedriver version 96 (https://chromedriver.chromium.org/downloads)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- place the `chromedriver.exe` file into this folder
-<br/>
 
 
 # How to use
