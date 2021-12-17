@@ -34,7 +34,7 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 <br/>
 
 # MISC
-<br/>
+
 ## Notes
 - Instructions written here assumed you already knew some stuffs (e.g. what is "Python")
 - User Guide might not be well-explain.
