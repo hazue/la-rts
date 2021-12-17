@@ -31,13 +31,8 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 5. The script will run ffmpeg command with the m3u8 URL to download twitter space audio
 6. The script will turn the downloaded audio to a m4a file and name it as `space.m4a`
 
-
-# TODO for Developer
-- add validation to make sure relevant exe exists
-- add function to auto detect chromedriver regardless of version
-
-
-# Notes
+# MISC
+## Notes
 - Instructions written here assumed you already knew some stuffs (e.g. what is "Python")
 - User Guide might not be well-explain.
 - Hazue created this merely to download a certain ~~Comedian~~ celebrity's recorded twitter space.
@@ -47,3 +42,8 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 &nbsp;&nbsp;&nbsp;&nbsp;- ffmpeg version is different, or has a change of command<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- chrome version outdated<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- chromedriver version outdated<br/>
+
+## TODO for Developer
+- add validation to make sure relevant exe exists
+- add function to auto detect chromedriver regardless of version
+
