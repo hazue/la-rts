@@ -1,1 +1,3 @@
-ffmpeg.exe
+*.exe
+*.m4a
+*.mp3

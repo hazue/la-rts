@@ -1,13 +1,24 @@
 # selenium-dl-recorded-space
 Simple scripts to download Twitter Recorded Space by using Selenium
 
+# Pre-requisite
+- Installed Python 3
+- Installed ffmpeg
+- Download chromedriver (https://chromedriver.chromium.org/downloads)
+
 # TODO
-complete this README
+- add steps of how to use this tool
+- add validation to make sure relevant exe exists
+- add function to auto detect chromedriver regardless of version
 
-turn dl-recorded-space.py into EXE
+# Disclaimer
+Hazue created this merely to download a certain ~~Comedian~~ celebrity's recorded twitter space.
 
-figure out easier way to change tweet URL without the use of CMD
+No thorough testing done.
+Currently only supports Chrome 96
 
-at the end of the python script (EXE) leave message like
-- "Done! press anything to continue!"
-- "Oh noes something failed. copy pasta whole logs and show it to Hazue. May he will debug if he feels like it"
+Expect errors when
+- Python version is wrong/outdated
+- ffmpeg version is different, or has a change of command
+- chrome version outdated
+- chromedriver version outdated

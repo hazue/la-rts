@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 import sys
+import os
 
 if __name__ == '__main__':
     
@@ -40,8 +41,13 @@ if __name__ == '__main__':
     
     print("\nCopy paste below command, run it and the downloading will begins.\n")
     print(strFullCommand)
+    time.sleep(3)
+    
+    print("\nRunning command in 3 seconds\n")
+    os.system(strFullCommand)
     
     print("\n\nThis program isn't fool-proof so good luck in downloading (may the force be with you)\n")
+    input("Completed! press enter to exit")
     
     driver.close()
     driver.quit()
