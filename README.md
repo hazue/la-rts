@@ -10,18 +10,16 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 # Pre-requisite
 - Python 3 installed
 - ffmpeg installed (https://ffmpeg.org/download.html, download from "Get packages & executable files")
+&nbsp;&nbsp;&nbsp;&nbsp;- place the `ffmpeg.exe` file into this folder
 - Chrome 96 installed
-- Download chromedriver (https://chromedriver.chromium.org/downloads)
-
-
-# For first time user
-1. After you have downloaded ffmpeg, place the `ffmpeg.exe` file into this folder<br/>
-2. After you have downloaded chromedriver version 96, place the `chromedriver.exe` file into this folder
+- Download chromedriver version 96 (https://chromedriver.chromium.org/downloads)
+&nbsp;&nbsp;&nbsp;&nbsp;- place the `chromedriver.exe` file into this folder
+<br/>
 
 
 # How to use
 1. Run this command `python la-rts.py {insert-tweet-space-url}`<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;a. Example `python la-rts.py https://twitter.com/LaplusDarknesss/status/1420691919566`
+&nbsp;&nbsp;&nbsp;&nbsp;a. Example `python la-rts.py https://twitter.com/smokwi420great/status/1420691919566`
 2. Wait til the download is completed.
 3. You should have a new file `space.m4a` created. Rename it to however you like
 
