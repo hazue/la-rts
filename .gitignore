@@ -1,3 +1,6 @@
 *.exe
 *.m4a
 *.mp3
+*.log
+
+test*
