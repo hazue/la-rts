@@ -37,11 +37,12 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 - Instructions written here assumed you already knew some stuffs (e.g. what is "Python")
 - User Guide might not be well-explain.
 - Hazue created this merely to download a certain ~~Comedian~~ celebrity's recorded twitter space.
-- No thorough testing done.
+- No thorough testing performed.
 - Expect errors when<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- Python version is wrong/outdated<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- ffmpeg version is different, or has a change of command<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- chrome version outdated<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- chromedriver version outdated<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;- Chrome Browser version is different from the version of chromedriver.exe<br/>
 
 
