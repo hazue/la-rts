@@ -3,7 +3,25 @@ import time
 import sys
 import os
 
+
+def validateRequiredExecutables():
+    filesInThisFolder = [f for f in os.listdir('.') if os.path.isfile(f)]
+    
+    if "ffmpeg.exe" not in filesInThisFolder:
+        print('Please place ffmpeg.exe in the same folder as this python file')
+        return False
+        
+    if "chromedriver.exe" not in filesInThisFolder:
+        print('Please place chromedriver.exe in the same folder as this python file')
+        return False
+        
+    return True
+
+
 if __name__ == '__main__':
+    
+    if validateRequiredExecutables() is False:
+        quit()
     
     strTwitterUrl = sys.argv[1]
     
@@ -12,8 +30,9 @@ if __name__ == '__main__':
     strJavaScript = jsfile.read()
     time.sleep(1)
     
+    # TODO: add function to auto detect chromedriver regardless of version
     print("Opening [controlled browser]")
-    driver = webdriver.Chrome(executable_path="chromedriver_96.exe")
+    driver = webdriver.Chrome(executable_path="chromedriver.exe")
     time.sleep(1)
     
     print('Loading twitter space. Assume it takes 5 seconds to load')
