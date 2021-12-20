@@ -5,10 +5,12 @@ Simple scripts to download Twitter Recorded Space by using Selenium
 # Limitations
 - Support only Chrome 96
 - Support only Windows (tested only in Windows 10)
+- Only works with Chrome browser in ENGLISH (*because auto-click only recognize "Play recording" button in english*)
 
 
 # Pre-requisite
 - Python 3 installed
+- Selenium installed (do it via `pip install selenium`)
 - ffmpeg installed (https://ffmpeg.org/download.html, download from "Get packages & executable files")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;- place the `ffmpeg.exe` file into this folder
 - Chrome 96 installed
